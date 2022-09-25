@@ -1,0 +1,152 @@
+/* 列表页专有的css */
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    padding-left: 14px;
+    padding-top: 3px;
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e900';
+    font-family: 'icomoon';
+}
+
+.sk_container {
+    width: 1200px;
+}
+
+.sk_bd ul li {
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    float: left;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+ul li a img {
+    margin: 25px 20px 0 20px;
+}
+
+ul li a p {
+    margin-top: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.jiage {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 22px;
+}
+
+.jiageq {
+    float: left;
+    line-height: 30px;
+    overflow: hidden;
+    margin-left: 6px;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: rgb(204, 204, 204);
+}
+
+.jiageh {
+    float: left;
+    font-size: 19px;
+    color: red;
+}
+
+ul li a .father {
+    width: 150px;
+    height: 12px;
+    padding: 1px;
+    border: solid 1px red;
+    border-radius: 5px;
+}
+
+ul li a .father .son {
+    width: 87%;
+    height: 100%;
+    background-color: red;
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.kunkun {
+    float: left;
+    height: 20px;
+}
+
+.kunkun .ji {
+    float: left;
+    margin-right: 10px;
+}
+
+.kunkun .father {
+    float: left;
+    margin-top: 3px;
+
+}
+
+.kunkun .jini {
+    float: left;
+    margin-left: 10px;
+}
+.qianggou{
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-top: 8px;
+    background-color: #c81523;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 50px;
+}
